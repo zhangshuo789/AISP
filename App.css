@@ -1,0 +1,51 @@
+*  {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+  }
+  
+  .home,
+  .Ps板块,
+  .模型训练板块,
+  .AI问答 {
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+  }
+  
+  .Ps板块 {
+    background-image: url('/public/images/image2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+  
+  .模型训练板块{
+    background-image: url('/public/images/image1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    font-size: 100px;
+  }
+  
+  /* AiQa.css */
+
+.AiQa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('/public/images/image4.jpg'); /* 替换为你的背景图路径 */
+  background-size: cover; /* 使背景图铺满整个容器 */
+  background-position: center; /* 居中显示背景图 */
+  color: #fff; /* 设置文本颜色为白色，以确保在背景图上显示清晰 */
+}
+
+
